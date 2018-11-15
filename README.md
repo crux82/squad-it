@@ -130,7 +130,7 @@ is correct - "*Pacifico*".
 	>* Wikipedia Page: Virgilio Lai
 
 
-##References
+## References
 
 [Rajpurkar et al. 2016] Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, Percy Liang *SQuAD: 100,000+ Questions for Machine Comprehension of Text* In the Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP) — November 1–5, 2016 — Austin, Texas, USA.
 
@@ -139,7 +139,7 @@ is correct - "*Pacifico*".
 [Croce et al. 2018] Danilo Croce, Alexandra Zelenanska, Roberto Basili *Neural Learning for Question Answering in Italian.* AI*IA 2018 -- Advances in Artificial Intelligence, 2018 Trento. pages 389-402
 
 
-##Contacts
+## Contacts
 
 For any question or suggestion, you can send an e-mail to <croce@info.uniroma2.it>
 
