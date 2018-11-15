@@ -37,7 +37,7 @@ If you find SQuAD-it useful for your research, please cite the following paper:
 
 ## Download
 
-To download the SQuAD-it, please refer to **LINK**
+To download the SQuAD-it, please refer to [https://github.com/crux82/squad-it](https://github.com/crux82/squad-it)
 
 You can download a copy of the dataset (distributed under the CC BY-SA 4.0 license).
 
@@ -128,6 +128,7 @@ is correct - "*Pacifico*".
 	>* Answer: Ulassai
 	>* Sentence: Virgilio Lai (Ulassai, 1º Agosto 1926- Cagliari, 6 Aprile 2009) è fotografo del 1900 italiano.
 	>* Wikipedia Page: Virgilio Lai
+
 
 ##References
 
