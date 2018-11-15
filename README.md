@@ -39,6 +39,8 @@ If you find SQuAD-it useful for your research, please cite the following paper:
 
 To download the SQuAD-it, please refer to [https://github.com/crux82/squad-it](https://github.com/crux82/squad-it)
 
+This resource is developed in the [Semantic Analytics Group](http://sag.art.uniroma2.it) of
+the [University of Roma Tor Vergata](http://web.uniroma2.it/home). 
 You can download a copy of the dataset (distributed under the CC BY-SA 4.0 license).
 
 ## Release format
@@ -143,4 +145,5 @@ is correct - "*Pacifico*".
 
 For any question or suggestion, you can send an e-mail to <croce@info.uniroma2.it>
 
+More dtails will be also atted to [http://sag.art.uniroma2.it/demo-software/squadit/](http://sag.art.uniroma2.it/demo-software/squadit/)
 
