@@ -145,5 +145,5 @@ is correct - "*Pacifico*".
 
 For any question or suggestion, you can send an e-mail to <croce@info.uniroma2.it>
 
-More dtails will be also atted to [http://sag.art.uniroma2.it/demo-software/squadit/](http://sag.art.uniroma2.it/demo-software/squadit/)
+More details will be also added to [http://sag.art.uniroma2.it/demo-software/squadit/](http://sag.art.uniroma2.it/demo-software/squadit/)
 
