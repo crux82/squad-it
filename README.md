@@ -1,15 +1,15 @@
 # SQuAD-it
 ## A large scale dataset for Question Answering in Italian
 
-[SQuAD](https://rajpurkar.github.io/SQuAD-explorer/explore/1.1/dev/) [Rajpurkar et al. 2016]  is a large scale dataset for the training of question answering systems on factoid questions. 
+[SQuAD](https://rajpurkar.github.io/SQuAD-explorer/explore/1.1/dev/) [Rajpurkar et al. 2016]  is a large scale dataset for training of question answering systems on factoid questions. 
 It contains more than 100,000 question-answer pairs about passages from 536 articles chosen from various domains of Wikipedia. 
 
-**SQuAD-it** is derived from the SQuAD dataset and it is obtained through  the semi-automatic translation of the SQuAD dataset 
-in Italian. It represents a large-scale dataset for open question answering processes on factoid questions in Italian. 
-**This dataset contains more than 60,000 question/answer pairs derived from the original English dataset.** The dataset is split in a train and test datasets to support the replicability of the benchmarking of QA systems:
+**SQuAD-it** is derived from the SQuAD dataset and it is obtained through semi-automatic translation of the SQuAD dataset 
+into Italian. It represents a large-scale dataset for open question answering processes on factoid questions in Italian. 
+**The dataset contains more than 60,000 question/answer pairs derived from the original English dataset.** The dataset is split into training and test sets to support the replicability of the benchmarking of QA systems:
 
-* `SQuAD_it-train.json`: it contains the training examples derived from the original SQuAD 1.1 trainig material. 
-* `SQuAD_it-test.json`: it contains the test/benchmarking examples derived from the origial SQuAD 1.1 development material. 
+* `SQuAD_it-train.json`: it contains training examples derived from the original SQuAD 1.1 trainig material. 
+* `SQuAD_it-test.json`: it contains test/benchmarking examples derived from the origial SQuAD 1.1 development material. 
 
 More details about SQuAD-it can be found in [Croce et al. 2018]. The original paper can be found at this [link](https://link.springer.com/chapter/10.1007/978-3-030-03840-3_29).
 
@@ -37,15 +37,15 @@ If you find SQuAD-it useful for your research, please cite the following paper:
 
 ## Download
 
-To download the SQuAD-it, please refer to [https://github.com/crux82/squad-it](https://github.com/crux82/squad-it)
+To download the SQuAD-it dataset, please refer to [https://github.com/crux82/squad-it](https://github.com/crux82/squad-it)
 
-This resource is developed in the [Semantic Analytics Group](http://sag.art.uniroma2.it) of
+The resource is developed by the [Semantic Analytics Group](http://sag.art.uniroma2.it) of
 the [University of Roma Tor Vergata](http://web.uniroma2.it/home). 
 You can download a copy of the dataset (distributed under the CC BY-SA 4.0 license).
 
 ## Release format
 
-The same format used in the SQuAD dataset is here adopted: both train/test files are released into the following JSON format:
+The same format used in the SQuAD dataset is adopted: both train/test files are released in the following JSON format:
 
 ```
 file.json
@@ -66,7 +66,7 @@ file.json
 └── "version": 1.1
 ```
 
-The Wikipedia articles are split into paragraphs, one or more questions are made about the paragraph. The training set contains exactly one answer for each question, the test set contains one or more answers for each question. One of the most important properties of the dataset is that the answers are part of the paragraph and thus can be expressed as indices of the paragraph tokens, i.e., context `[ answer_start : answer_start + len(text)]`.
+The Wikipedia articles are split into paragraphs, one or more questions are made about each paragraph. The training set contains exactly one answer for each question, the test set contains one or more answers for each question. One of the most important properties of the dataset is that the answers are part of the paragraph and thus can be expressed as indices of the paragraph tokens, i.e., context `[ answer_start : answer_start + len(text)]`.
 
 ## Size of SQuAD-it
 
@@ -81,7 +81,7 @@ The original SQuAD dataset contains the following elements:
 
 Automatic translation lead to nearly 90% of translated paragraph-question-answer triplets.  Some of these triplets were not translated due to unknown characters or low lexical  coverage of the translation system. In many cases, the answer was not part of the translated paragraph any more after the translation, which lead to cancellation of most of the translations and lead to  approximately 45% of the translated triplets w.r.t. the original dataset.
 
-Further corrections were made, such as exchange of the word order in the answer text, different morphological forms were looked for and others, and if such modified answer was part of the paragraph, it was substituted. This increased the translated triplets to nearly 62% of the original.
+Further corrections were made, such as exchange of the word order in the answer text, different morphological forms were looked for and others, and if such a modified answer was part of the paragraph, it was substituted. This increased the translated triplets to nearly 62% of the original.
 
 The final SQuAD-it contains the following elements:
 
@@ -107,7 +107,7 @@ The DrQA system [Chen et al. 2017] was adapted to the Italian language. The syst
 
 ## Examples
 
-Few examples of the answers given by the DrQA-it trained over the SQuAD-it are hereafter reported. 
+Few examples of the answers given by the DrQA-it trained on SQuAD-it are hereafter reported. 
 
 1. The answer to the question "*Dove si trovano le Isole Marshall?*"
 is correct - "*Pacifico*".
@@ -124,7 +124,7 @@ is correct - "*Pacifico*".
 	>* Wikipedia Page: Austria
 
 
-3. The answer to the question "*Dov'è nato Virgilio?*" is "*Ulassai*", which is correct, if referring to Virglio Lai, an Italian photographer, even if most people would be referring to the more famous Publius Vergilius Maro, (Publio Virgilio Marone, or simply Virgilio in Italian) born near Mantova 70 B.C.
+3. The answer to the question "*Dov'è nato Virgilio?*" is "*Ulassai*", which is correct, if referring to Virglio Lai, an Italian photographer, even though most people would be referring to the more famous Publius Vergilius Maro, (Publio Virgilio Marone, or simply Virgilio in Italian) born near Mantova 70 B.C.
 
 	>* Question: Dove è nato Virgilio?
 	>* Answer: Ulassai
@@ -143,7 +143,6 @@ is correct - "*Pacifico*".
 
 ## Contacts
 
-For any question or suggestion, you can send an e-mail to <croce@info.uniroma2.it>
+For any questions or suggestions, you can send an e-mail to <croce@info.uniroma2.it>
 
 More details will be also added to [http://sag.art.uniroma2.it/demo-software/squadit/](http://sag.art.uniroma2.it/demo-software/squadit/)
-
